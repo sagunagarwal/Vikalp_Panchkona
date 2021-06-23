@@ -1,0 +1,191 @@
+﻿Build1=Default,b4a.example
+File1=B12.bal
+File10=Mahabharata.bal
+File11=Mis1.bal
+File12=Monkey.bal
+File13=P111.gif
+File14=P1112A.gif
+File15=P12.gif
+File16=Panchatantra (1).png
+File17=Panchatantra (2).png
+File18=Panchatantra (3).png
+File19=Panchatantra (5).png
+File2=BackDrop1.bal
+File20=Panchatantra.png
+File21=Panchtantra.png
+File22=Panchtantra99.png
+File23=Q1.bal
+File24=Q1.gif
+File25=Q11.bal
+File26=Q111.bal
+File27=Q1111.bal
+File28=Q11111.bal
+File29=Q11112.bal
+File3=close.gif
+File30=Q11115.bal
+File31=Q1112.bal
+File32=Q11121.bal
+File33=Q11122.bal
+File34=Q112.bal
+File35=Q1121.bal
+File36=Q1122.bal
+File37=Q12.bal
+File38=Q121.bal
+File39=Q1211.bal
+File4=close1.gif
+File40=Q1212.bal
+File41=Q122.bal
+File42=Q1221.bal
+File43=Q1222.bal
+File44=qPanchtantra.png
+File45=screenshot.gif
+File46=Shop.bal
+File47=shopPanchtantra.png
+File48=Srt.bal
+File49=Tortoise.bal
+File5=cloud.gif
+File50=WhatsApp_Image_2021-06-23_at_1.41.19_AM-removebg-preview.png
+File51=Wolf.bal
+File6=far.gif
+File7=far1.gif
+File8=Jackal.bal
+File9=Layout.bal
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=core
+Library2=xui
+Library3=b4xgifview
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=|relative|..\B12
+Module10=|relative|..\Q1111
+Module11=|relative|..\Q11111
+Module12=|relative|..\Q11112
+Module13=|relative|..\Q11115
+Module14=|relative|..\Q1112
+Module15=|relative|..\Q11121
+Module16=|relative|..\Q11122
+Module17=|relative|..\Q112
+Module18=|relative|..\Q1121
+Module19=|relative|..\Q1122
+Module2=|relative|..\BG1
+Module20=|relative|..\Q12
+Module21=|relative|..\Q121
+Module22=|relative|..\Q1211
+Module23=|relative|..\Q1212
+Module24=|relative|..\Q122
+Module25=|relative|..\Q1221
+Module26=|relative|..\Q1222
+Module27=|relative|..\Satya
+Module28=|relative|..\Shop
+Module29=|relative|..\Srt
+Module3=|relative|..\Jackal
+Module30=Starter
+Module31=|relative|..\Treta
+Module4=|relative|..\Mahabharata
+Module5=|relative|..\Mis1
+Module6=|relative|..\Monkey
+Module7=|relative|..\Q1
+Module8=|relative|..\Q11
+Module9=|relative|..\Q111
+NumberOfFiles=51
+NumberOfLibraries=3
+NumberOfModules=31
+Version=10.9
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: Vikalp
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+	
+	
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: True
+	#IncludeTitle: False
+#End Region
+
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private xui As XUI
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("Layout")
+	
+End Sub
+
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+
+
+
+Private Sub Label1_Click
+	StartActivity(Srt)
+End Sub
